@@ -1,0 +1,68 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <form>
+        <label class="inscriere">Inscriere</label><br>
+
+        <label for="cod">Cod cerere:</label><br>
+        <input type="text" id="cod" name="cod" value="1" disabled><br>
+
+        <label for="pnume">Prenume:</label><br>
+        <input type="text" id="pnume" name="pnume"><br>
+
+        <label for="nume">Nume:</label><br>
+        <input type="text" id="nume" name="nume"><br>
+
+        <label for="email">E-Mail:</label><br>
+        <input type="email" id="email" name="email"><br>
+
+        <label for="casa">Casa:</label><br>
+        <input type="radio" id="gryffindor" name="casa" value="Gryffindor">
+        <label for="gryffindor">Gryffindor</label><br>
+        <input type="radio" id="hufflepuff" name="casa" value="Hufflepuff">
+        <label for="hufflepuff">Hufflepuff</label><br>
+        <input type="radio" id="ravenclaw" name="casa" value="Ravenclaw">
+        <label for="ravenclaw">Ravenclaw</label><br>
+        <input type="radio" id="slytherin" name="casa" value="Slytherin">
+        <label for="slytherin">Slytherin</label><br>
+
+        <label for="bagheta">Alege o bagheta:</label><br>
+        <select id="bagheta" name="bagheta">
+            <option value="stejar-moale">Stejar, miez moale</option>
+            <option value="stejar-tare">Stejar, miez tare</option>
+            <option value="pin-moale">Pin, miez moale</option>
+            <option value="pin-tare">Pin, miez tare</option>
+        </select><br>
+
+        <label for="familiar">Animal familiar:</label><br>
+        <input type="radio" id="bufnita" name="familiar" value="Bufnita">
+        <label for="bufnita">Bufnita</label><br>
+        <input type="radio" id="pisica" name="familiar" value="Pisica">
+        <label for="pisica">Pisica</label><br>
+        <input type="radio" id="broasca" name="familiar" value="Broasca">
+        <label for="broasca">Broasca</label><br>
+
+        <label for="abilitati">Abilitati speciale:</label><br>
+        <textarea name="abilitati" rows="5" cols="30"></textarea><br>
+
+        <label for="motivatie">Motivul pentru care doresti sa aplici:</label><br>
+        <textarea name="motivatie" rows="10" cols="30"></textarea><br>
+
+        <button type="button">Submit</button>
+    </form>
+</body>
+
+</html>
