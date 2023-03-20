@@ -22,4 +22,13 @@ function validateForm() {
         alert("Numarul de telefon introdus este prea lung");
         return false;
     }
+
+    let motivation = document.forms["myForm"]["motivatie"].value;
+    if (motivation.length < 100) {
+        alert("Motivatia este prea scurta");
+        return false;
+    } else if (motivation.length > 500) {
+        alert("Motivatia este prea lunga");
+        return false;
+    }
 }
