@@ -11,6 +11,7 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400&display=swap"
         rel="stylesheet">
+        <script src="script.js"></script>
 </head>
 
 <body>
@@ -18,7 +19,7 @@
         <img class="logo" src="pexels-whicdhemein-one-5550458.jpg" alt="logo">
         <p class="companyName">FireRose</p>
     </div>
-    <form>
+    <form name="myForm" onsubmit="return validateForm()">
         <label class="inscriere"><img class="formImg" src="pexels-whicdhemein-one-5550458.jpg" alt="logo">&ThickSpace; Formular aplicare</label><br>
 
         <label for="cod">Cod cerere:</label><br>
@@ -76,7 +77,7 @@
         <label for="comentarii">Comentarii/intrebari suplimentare:</label><br>
         <textarea name="comentarii" rows="5" cols="30"></textarea><br>
 
-        <button type="button">Submit</button>
+        <input class="submit-button" type="submit" value="Submit">
     </form>
 
     <div style="flex: 2 1 0px;"></div>
