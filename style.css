@@ -7,6 +7,7 @@ body {
 }
 
 form {
+    flex: 1 1 0px;
     color: black;
     font-family: 'Roboto', sans-serif;
     font-size: 24px;
@@ -15,13 +16,27 @@ form {
     border-radius: 8px;
 }
 
-img{
+.formImg {
     width: 40px;
     height: 40px;
     border-radius: 40px;
 }
 
-.logo{
+.companyName {
+    margin-left: 24px;
+    color: white;
+    text-shadow: 2px 2px 5px;
+    font-size: 64px;
+}
+
+.logoDiv {
+    flex: 2 1 0px;
+    align-self: flex-start;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
     width: 120px;
     height: 120px;
     border-radius: 120px;
@@ -29,15 +44,18 @@ img{
     left: 0;
 }
 
-label, input, select, textarea{
+label,
+input,
+select,
+textarea {
     margin-bottom: 16px;
 }
 
-select{
+select {
     font-size: 20px;
 }
 
-button{
+button {
     width: 100px;
     height: 40px;
     font-size: 24px;
@@ -46,7 +64,7 @@ button{
     border-radius: 12px;
 }
 
-.inscriere{
-    font-size: 48px;
+.inscriere {
+    font-size: 36px;
     font-weight: 700px;
 }
