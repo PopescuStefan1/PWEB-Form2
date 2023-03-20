@@ -16,4 +16,10 @@ function validateForm() {
         alert("Email-ul trebuie sa contina @ si sa se termine in .ceva");
         return false;
     }
+
+    let nrTelefon = document.forms["myForm"]["telefon"].value;
+    if (nrTelefon.length > 10) {
+        alert("Numarul de telefon introdus este prea lung");
+        return false;
+    }
 }
