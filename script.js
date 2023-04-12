@@ -32,3 +32,11 @@ function validateForm() {
         return false;
     }
 }
+
+function ButtonEnable() {
+    if ($(".checkbox").is(":checked")) {
+        $("#button").prop('disabled', false);
+    } else {
+        $("#button").prop('disabled', true);
+    }
+}
